@@ -40,7 +40,7 @@ header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorizatio
 
     <script>
         var start = () => {
-            var data = { user_id: 'taemo0110', user_pw: encodeURIComponent("chase011"), returnUrl: encodeURIComponent('https://cf.gameclub.ph/'), isCaptcha: '1' };
+            var data = { user_id: 'testing', user_pw: encodeURIComponent("testing"), returnUrl: encodeURIComponent('https://cf.gameclub.ph/'), isCaptcha: '1' };
             $.ajax({
                 url: "https://www.gameclub.ph/Login/LoginAct",
                 type: "POST",
